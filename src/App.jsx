@@ -1,11 +1,14 @@
-import './App.css'
-import Sidebar from './components/Sidebar'
+import "./App.css";
+import BarraDePesquisa from "./components/BarraDePesquisa";
+import Sidebar from "./components/Sidebar";
 
 function App() {
-
   return (
-    <Sidebar />
-  )
+    <div>
+      <Sidebar />
+      <BarraDePesquisa />
+    </div>
+  );
 }
 
-export default App
+export default App;
