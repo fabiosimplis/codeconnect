@@ -1,0 +1,27 @@
+.container-filtro {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.container-filtro ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+.container-filtro ul li{
+  background-color: var(--cinza-claro);
+  color: var(--cinzaz-escuro);
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 0.25em 0.5em;
+  gap: 10px;
+}
+
+.container-filtro button{
+  border: none;
+  background-color: transparent;
+  color: var(--cinza-medio);
+  font-size: 18px;
+}
