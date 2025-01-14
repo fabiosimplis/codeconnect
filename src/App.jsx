@@ -1,11 +1,20 @@
-import './App.css'
-import Sidebar from './components/Sidebar'
+import "./App.css";
+import BarraDePesquisa from "./components/BarraDePesquisa";
+import Filtro from "./components/Filtro";
+import Ordenacao from "./components/Ordenacao";
+import Sidebar from "./components/Sidebar";
 
 function App() {
-
   return (
-    <Sidebar />
-  )
+    <div className="container">
+      <Sidebar />
+      <div>
+        <BarraDePesquisa />
+        <Filtro />
+        <Ordenacao />
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
