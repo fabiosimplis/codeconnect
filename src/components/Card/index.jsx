@@ -1,43 +1,43 @@
-import './styles.css';
-import Capa from './assets/capa.png'
-import Code from './assets/code.svg'
-import Share from './assets/share.svg'
-import Chat from './assets/chat.svg'
-import Icone from './assets/icone.png'
+/* eslint-disable react/prop-types */
+import "./styles.css";
+import Code from "./assets/code.svg";
+import Share from "./assets/share.svg";
+import Chat from "./assets/chat.svg";
 
-export default function Card() {
+// eslint-disable-next-line no-unused-vars
+export default function Card({id, imagemUrl, titulo, resumo, linhasDeCodigo, compartilhamentos,comentarios, usuario}) {
   return (
     <article className="card">
       <div className="card__imagem">
-        <img src={Capa} alt="imagem do Post" />
+        <img src={imagemUrl} alt={titulo} />
       </div>
-      <div className='card__conteudo'>
+      <div className="card__conteudo">
         <div className="conteudo__texto">
-          <h3>Titulo dp post</h3>
-          <p>Resumo do post</p>
+          <h3>{titulo}</h3>
+          <p>{resumo}</p>
         </div>
 
-        <div className='conteudo__rodape'>
+        <div className="conteudo__rodape">
           <ul>
             <li>
               <img src={Code} alt="códigos" />
-              100
+              {linhasDeCodigo}
             </li>
             <li>
               <img src={Share} alt="compartilhamentos" />
-              12
+              {compartilhamentos}
             </li>
             <li>
               <img src={Chat} alt="comentários" />
-              10
+              {comentarios}
             </li>
           </ul>
           <div className="rodape__usuario">
-            <img src={Icone} alt="imagem do usuário" />
-            @fjunior
+            <img src={usuario.imagem} alt="imagem do usuário" />
+            {usuario.nome}
           </div>
         </div>
       </div>
     </article>
-  )
+  );
 }
