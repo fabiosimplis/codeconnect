@@ -4,7 +4,7 @@
   background-color: var(--cinza-escuro);
   border-radius: 8px;
 
-  width: 50%;
+  width: 100%;
 
   display: grid;
 }
@@ -91,4 +91,11 @@
   height: 32px;
   border-radius: 100%;
   object-fit: cover;
+}
+
+.lista-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 24px;
 }
