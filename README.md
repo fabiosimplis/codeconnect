@@ -25,6 +25,3 @@ Para visualizar o Figma do projeto, clique [aqui](https://www.figma.com/file/SAS
 Para abrir e rodar o projeto, execute ``npm install`` para instalar as dependências e ``npm run dev`` para iniciar o projeto.
 
 Depois, acesse http://127.0.0.1:5173/ no seu navegador.
-
-## 📚 Mais Informações sobre o Curso
-O CodeConnect é uma rede social fictícia utilizada nesse curso da Alura. 
