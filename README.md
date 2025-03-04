@@ -1,5 +1,5 @@
 ## CodeConnect
-Uma rede social fictícia para pessoas desenvolvedoras compartilharem seus projetos e trechos de códigos, possiibilitando a interação via comentário ou compartilhamento. 
+Uma rede social fictícia para pessoas desenvolvedoras compartilharem seus projetos e trechos de códigos, possibilitando a interação via comentário ou compartilhamento. 
 A ideia principal é iniciar um projeto React utilizando o Vite e desbravar a componentização, o uso dos hooks e props para criação de uma página.
 
 <img src='https://imgur.com/XT1O3BZ.png' alt='screenshot da aplicação' width='550px'/>
